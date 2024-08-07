@@ -9,13 +9,9 @@ public class Rei extends Peca{
         int deltaY = Math.abs(novoY - this.y);
         int deltaX = Math.abs(novoX - this.x);
 
-        if((deltaY <= 1 && deltaX <= 1) && T.posicaoValida(novoX, novoY)){
-            this.y = novoY;
-            this.x = novoX;
-
+        if ((deltaX <= 1 && deltaY <= 1) && T.posicaoValida(novoX, novoY)) {
             return true;
         }
-
         return false;
     }
 }

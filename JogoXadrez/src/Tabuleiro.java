@@ -33,4 +33,17 @@ public class Tabuleiro {
         return null;
     }
 
+    public void exibirTabuleiro() {
+        for (int i = 7; i >= 0; i--) {
+            for (int j = 0; j < 8; j++) {
+                if (pecas[j][i] != null) {
+                    System.out.print(pecas[j][i] + " ");
+                } else {
+                    System.out.print("-- ");
+                }
+            }
+            System.out.println();
+        }
+    }
+
 }

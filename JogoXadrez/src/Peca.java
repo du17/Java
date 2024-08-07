@@ -23,4 +23,13 @@ public abstract class Peca {
     public String getCor(){
         return cor;
     }
+
+    public void setPosicao(int x, int y) {
+        this.x = x;
+        this.y = y;
+    }
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName().substring(0, 2) + "-" + cor.charAt(0);
+    }
 }

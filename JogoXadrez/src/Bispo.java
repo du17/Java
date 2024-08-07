@@ -1,6 +1,6 @@
-public class Cavalo extends Peca {
+public class Bispo extends Peca {
 
-    public Cavalo(int x, int y, String cor) {
+    public Bispo(int x, int y, String cor) {
         super(x, y, cor);
     }
 
@@ -9,7 +9,7 @@ public class Cavalo extends Peca {
         int deltaX = Math.abs(novoX - this.x);
         int deltaY = Math.abs(novoY - this.y);
 
-        if (((deltaX == 2 && deltaY == 1) || (deltaX == 1 && deltaY == 2)) && T.posicaoValida(novoX, novoY)) {
+        if (deltaX == deltaY && T.posicaoValida(novoX, novoY)) {
             this.x = novoX;
             this.y = novoY;
             return true;
