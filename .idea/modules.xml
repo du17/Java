@@ -7,10 +7,12 @@
       <module fileurl="file://$PROJECT_DIR$/JogoXadrez/JogoXadrez.iml" filepath="$PROJECT_DIR$/JogoXadrez/JogoXadrez.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lista-Prova/Lista-Prova.iml" filepath="$PROJECT_DIR$/Lista-Prova/Lista-Prova.iml" />
       <module fileurl="file://$PROJECT_DIR$/ListaAula04/ListaAula04.iml" filepath="$PROJECT_DIR$/ListaAula04/ListaAula04.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ListaJava/ListaJava.iml" filepath="$PROJECT_DIR$/ListaJava/ListaJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarefa/Tarefa.iml" filepath="$PROJECT_DIR$/Tarefa/Tarefa.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarefa 2/Tarefa 2.iml" filepath="$PROJECT_DIR$/Tarefa 2/Tarefa 2.iml" />
       <module fileurl="file://$PROJECT_DIR$/Tarefa 3/Tarefa 3.iml" filepath="$PROJECT_DIR$/Tarefa 3/Tarefa 3.iml" />
       <module fileurl="file://$PROJECT_DIR$/JogoXadrez/Voos-com-Threads/Voos-com-Threads.iml" filepath="$PROJECT_DIR$/JogoXadrez/Voos-com-Threads/Voos-com-Threads.iml" />
+      <module fileurl="file://$PROJECT_DIR$/projetoExtencao3/projetoExtencao3.iml" filepath="$PROJECT_DIR$/projetoExtencao3/projetoExtencao3.iml" />
     </modules>
   </component>
 </project>
